@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
+  { name: "Project", href: "#project" },
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
@@ -65,7 +65,7 @@ export default function Navbar() {
               }
             </div>
 
-            <div className="h-6 w-px bg-white/10 mx-2"/>
+            <div className="h-6 w-px bg-white/10 mx-2" />
 
             <div className="flex gap-4">
               <a className="p-2 rounded-lg bg-white/5 hover:bg-primary/10 transition-colors group" href={socialLinks.github}>

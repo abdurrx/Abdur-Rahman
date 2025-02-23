@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="home" className="min-h-screen relative overflow-hidden bg-black">
       <ParticleCanvas />
-      <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6 py-24 lg:py-36">
+      <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6 py-28 lg:py-36">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-16">
           {/* Text Content */}
           <motion.div
@@ -21,7 +21,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-tertiary bg-clip-text text-transparent mb-4 md:mb-6">
               Full Stack
-              <br/>
+              <br />
 
               <motion.span
               initial={{ opacity: 0, y: 20 }}
