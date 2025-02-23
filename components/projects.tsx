@@ -38,8 +38,8 @@ const projects = [
     tech: [
       { name: "Docker", icon: SiDocker, color: "#1D63ED" },
       { name: "Express.js", icon: SiExpress, color: "#000000" },
-      { name: "Firebase", icon: BiLogoFirebase, color: "#FFC400" },
-      { name: "Pyhon", icon: SiPython, color: "#33DFDF" },
+      { name: "Firebase", icon: BiLogoFirebase, color: "#FF9408" },
+      { name: "Pyhon", icon: SiPython, color: "#FFCE41" },
     ],
     image: "/img/FishDeasAPI.png",
   },
@@ -67,8 +67,8 @@ const projects = [
     tech: [
       { name: "Docker", icon: SiDocker, color: "#1D63ED" },
       { name: "Express.js", icon: SiExpress, color: "#000000" },
-      { name: "Firebase", icon: BiLogoFirebase, color: "#FFC400" },
-      { name: "Pyhon", icon: SiPython, color: "#33DFDF" },
+      { name: "Firebase", icon: BiLogoFirebase, color: "#FF9408" },
+      { name: "Pyhon", icon: SiPython, color: "#FFCE41" },
     ],
     image: "/img/TrashHubAPI.png",
   },
@@ -82,9 +82,9 @@ const projects = [
   },
 ]
 
-export default function Project() {
+export default function Projects() {
   return (
-    <section id="project" className="min-h-screen py-32 relative bg-black">
+    <section id="projects" className="py-32 relative bg-black">
       <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6">
         {/* Section Heading */}
         <motion.div
@@ -133,7 +133,7 @@ export default function Project() {
                         <span
                         key={j}
                         className="px-3 py-1 rounded-full bg-white/5 text-content/80 text-sm border border-white/5 hover:bg-surface transition-colors flex items-center gap-1.5 group/tech">
-                          <tech.icon style={{ color: tech.color }} className="w-4 h-4 transition-colors" />
+                          <tech.icon color={tech.color} className="w-4 h-4 transition-colors" />
 
                           <span className="group-hover/tech:text-content transition-colors">
                             {tech.name}

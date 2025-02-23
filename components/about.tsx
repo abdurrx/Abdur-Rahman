@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen py-48 md:py-64 relative">
+    <section id="about" className="min-h-screen py-48 md:py-54 relative">
       <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6">
         {/* Section Heading */}
         <motion.div

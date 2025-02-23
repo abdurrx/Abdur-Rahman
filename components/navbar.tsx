@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Project", href: "#project" },
+  { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
@@ -51,9 +51,9 @@ export default function Navbar() {
             <span className="font-semibold text-center/90 group-hover:text-primary transition-colors">
               Abdur Rahman
             </span>
+          </motion.div>
 
           {/* Desktop Navigation */}
-          </motion.div>
           <div className="hidden lg:flex items-center gap-6">
             <div className="flex items-center gap-6 bg-background/80 px-4 py-2 rounded-full border border-white/5 shadow-lg shadow-primary/5">
               {
