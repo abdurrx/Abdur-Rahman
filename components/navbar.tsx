@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           </motion.div>
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             <div className="flex items-center gap-6 bg-background/80 px-4 py-2 rounded-full border border-white/5 shadow-lg shadow-primary/5">
               {
                 navItems.map((items, i) => (
@@ -79,7 +79,7 @@ export default function Navbar() {
 
           <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2 rounded-lg bg-white/5 hover:bg-primary/10 transition-colors">
+          className="lg:hidden p-2 rounded-lg bg-white/5 hover:bg-primary/10 transition-colors">
             {isMenuOpen ? (
               <XMarkIcon className="h-6 w-6 text-content/80" />
             ): (
@@ -92,7 +92,7 @@ export default function Navbar() {
           <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden mt-4 pb-4 space-y-4">
+          className="lg:hidden min-h-screen  mt-4 pb-4 space-y-4">
             {navItems.map((item) => (
               <a key={item.name} href={item.href} onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 text-content/80 hover:text-primary hover:bg-white/5 rounded-lg transition-colors">
                 {item.name}
