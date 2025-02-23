@@ -8,7 +8,7 @@ import Image from "next/image";
 const projects = [
   {
     title: "AMAN",
-    description: "Creating an mobile application for labor preparation. Using kotlin programming language. Design with figma. Published to google playstore.",
+    description: "Create an mobile application for labor preparation. Using kotlin programming language. Design with figma. Published to google playstore.",
     tech: [
       { name: "Figma", icon: SiFigma, color: "#FF01E6" },
       { name: "Kotlin", icon: TbBrandKotlin, color: "#7F52FF" },
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "BacaKomik",
-    description: "Creating an user-friendly mobile app interface for readers. Making it easy for readers to access comics, various features, and more.",
+    description: "Create an user friendly mobile app interface for readers. Making it easy for readers to access comics, various features, and more.",
     tech: [
       { name: "Figma", icon: SiFigma, color: "#FF01E6" },
     ],
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     title: "FishDeas API",
-    description: "Create an back-end using JavaScript, deploy to Google Cloud Platform using Cloud Run. Firebase as a platform with data storage, and user authentication.",
+    description: "Create an backend using JavaScript, deploy to Google Cloud Platform using Cloud Run. Firebase as a platform with data storage, and user authentication.",
     tech: [
       { name: "Docker", icon: SiDocker, color: "#1D63ED" },
       { name: "Express.js", icon: SiExpress, color: "#000000" },
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: "TrashHub API",
-    description: "Create an back-end using JavaScript, deploy to Google Cloud Platform using Cloud Run. Firebase as a platform with data storage, and user authentication.",
+    description: "Create an backend using JavaScript, deploy to Google Cloud Platform using Cloud Run. Firebase as a platform with data storage, and user authentication.",
     tech: [
       { name: "Docker", icon: SiDocker, color: "#1D63ED" },
       { name: "Express.js", icon: SiExpress, color: "#000000" },
@@ -92,7 +92,7 @@ export default function Projects() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="flex flex-col items-center mb-20">
-          <h2 className="text-2xl md:text-4xl font-bold text-content mb-4 text-center">Projects</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-content mb-4 text-center">My Projects</h2>
 
           <div className="w-24 md:w-36 h-1 bg-gradient-to-r from-primary to-tertiary rounded-full" />
         </motion.div>

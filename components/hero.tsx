@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="home" className="min-h-screen relative overflow-hidden bg-black">
       <ParticleCanvas />
-      <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6 py-28 lg:py-36">
+      <div className="max-w-screen-lg md:max-w-6xl mx-auto px-6 py-28">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-16">
           {/* Text Content */}
           <motion.div

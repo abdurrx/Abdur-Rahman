@@ -37,7 +37,7 @@ export default function Skills() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="flex flex-col items-center mb-20">
-          <h2 className="text-2xl md:text-4xl font-bold text-content mb-4 text-center">Skills</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-content mb-4 text-center">My Skills</h2>
 
           <div className="w-24 md:w-36 h-1 bg-gradient-to-r from-primary to-tertiary rounded-full" />
         </motion.div>

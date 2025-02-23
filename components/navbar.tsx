@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import MenuItem from "./menu-items";
 import { GithubIcon, LinkedInIcon } from "./social-icons";
