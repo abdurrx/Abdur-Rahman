@@ -46,7 +46,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 1.2 }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
             onClick={() => window.open("/resume.pdf", "_blank")}
-            className="relative overflow-hidden px-6 md:px-8 py-3 md:py-4 rounded-full bg-surface border border-white/10 hover:border-primary/30 group">
+            className="relative overflow-hidden px-6 py-3 rounded-full bg-surface border border-white/10 hover:border-primary/30 group">
               <span className="text-md md:text-xl text-content group-hover:text-primary transition-colors">
                 Download CV
               </span>
