@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-screen py-64 md:py-52 mb-[-73] overflow-hidden relative">
+    <section id="contact" className="min-h-screen relative py-60 overflow-hidden bg-black">
       <ParticleCanvas />
       <div className="max-w-screen-lg md:max-w-4xl mx-auto px-6">
         {/* Section Heading */}
