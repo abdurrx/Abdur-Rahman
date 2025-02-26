@@ -22,7 +22,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-md md:text-2xl text-content/80 text-justify">
-          Graduated of Informatics Engineering from Sekolah Tinggi Teknologi Indonesia Tanjung Pinang with summa cum laude predicate and GPA 4.00. Having analytical skills and technical expertise in mobile development, web development, backend development, and cloud computing, along with solid ability to adapt quickly to change and overcome challenges with determination.
+          Graduated of Informatics Engineering from Sekolah Tinggi Teknologi Indonesia Tanjung Pinang with summa cum laude predicate and GPA 4.00. Possess analytical skills and technical expertise in mobile development, web development, backend development, and cloud computing, along with a strong ability to make significant contributions and overcome challenges with determination.
         </motion.p>
       </div>
     </section>
